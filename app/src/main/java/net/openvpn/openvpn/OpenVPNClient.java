@@ -144,15 +144,6 @@ public class OpenVPNClient extends OpenVPNClientBase implements OnRequestPermiss
  
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-		String app_name = (new String(new byte[]{  (byte) 71,  (byte) 114, (byte) 101, (byte) 101, (byte) 100, (byte) 121})) + " " + (new String(new byte[]{(byte) 86, (byte) 80, (byte) 78}));
-        
-		if(getTitle().equals(app_name)){
-			 setContentView(R.layout.form);
-		 }else{
-			 Process.killProcess(Process.myPid());
-			 System.exit(0);
-			 finish();
-		 }
         Intent intent = getIntent();
         String str = TAG;
         Object[] objArr = new Object[S_BIND_CALLED];
