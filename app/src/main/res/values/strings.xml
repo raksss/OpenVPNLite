@@ -13,7 +13,7 @@
 <string name="advanced_menu">Advanced</string>
 <string name="alt_proxy_summary">Enable Private Tunnel proxy (for Private Tunnel profiles only)</string>
 <string name="alt_proxy_title">Private Tunnel Proxy</string>
-<string name="app">Greedy VPN</string>
+<string name="app">Openvpn Connect</string>
 <string name="app_shortcut_title">OpenVPN Connect</string>
 <string name="apprate_dismiss">No thanks</string>
 <string name="apprate_message">If you enjoy using %s, please take a moment to rate it. Thanks for your support!</string>
