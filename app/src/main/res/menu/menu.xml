@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/about_menu" android:title="@string/about_menu" />
+	<item android:id="@+id/help_menu" android:title="@string/help_menu" />
+	<item android:id="@+id/import_menu" android:title="@string/import_menu">
+		<menu xmlns:android="http://schemas.android.com/apk/res/android">
+			<item android:id="@+id/import_private_tunnel_profile" android:title="@string/import_private_tunnel_profile" />
+			<item android:id="@+id/import_profile_remote" android:title="@string/import_profile_remote" />
+			<item android:id="@+id/import_profile" android:title="@string/import_profile" />
+			<item android:id="@+id/import_pkcs12" android:title="@string/import_pkcs12" />
+		</menu>
+	</item>
+	<item android:id="@+id/preferences" android:title="@string/preferences" />
+	<item android:id="@+id/add_proxy" android:title="@string/add_proxy" />
+	<item android:id="@+id/add_shortcut_menu" android:title="@string/add_shortcut_menu">
+		<menu xmlns:android="http://schemas.android.com/apk/res/android">
+			<item android:id="@+id/add_shortcut_connect" android:title="@string/add_shortcut_connect" />
+			<item android:id="@+id/add_shortcut_disconnect" android:title="@string/add_shortcut_disconnect" />
+			<item android:id="@+id/add_shortcut_app" android:title="@string/add_shortcut_app" />
+		</menu>
+	</item>
+	<item android:id="@+id/show_log" android:title="@string/show_log" />
+	<item android:id="@+id/more_menu" android:title="@string/more_menu">
+		<menu xmlns:android="http://schemas.android.com/apk/res/android">
+			<item android:id="@+id/show_raw_stats" android:title="@string/show_raw_stats" />
+			<item android:id="@+id/forget_creds" android:title="@string/forget_creds" />
+			<item android:id="@+id/exit_partial" android:title="@string/exit_partial" />
+			<item android:id="@+id/exit_full" android:title="@string/exit_full" />
+		</menu>
+	</item>
+</menu>

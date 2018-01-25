@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:padding="3.0mm"
+	style="@style/group"
+	android:layout_height="wrap_content">
+
+	<LinearLayout
+		style="@style/group_horizontal">
+
+		<ImageView
+			android:src="@drawable/info"
+			style="@style/image"/>
+
+		<LinearLayout
+			android:paddingLeft="16.0sp"
+			style="@style/group">
+
+			<TextView
+				android:text="@string/ar_title"
+				style="@style/title"/>
+
+			<View
+				style="@style/spacer16"/>
+
+			<LinearLayout
+				android:background="@drawable/profile_box"
+				style="@style/group_wrap">
+
+				<TextView
+					android:textStyle="bold"
+					android:id="@+id/ar_profile_name"
+					style="@style/item"/>
+
+				<TextView
+					android:id="@+id/ar_profile_description"
+					style="@style/subtitle"/>
+
+			</LinearLayout>
+
+			<TextView
+				android:textColor="#ffff8080"
+				android:id="@+id/ar_profile_note"
+				android:paddingTop="16.0sp"
+				style="@style/item"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<View
+		style="@style/spacer16"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+		<Button
+			android:id="@+id/ar_accept_button"
+			android:layout_width="0.0dip"
+			android:layout_height="wrap_content"
+			android:text="@string/ar_accept"
+			android:layout_weight="0.5"/>
+
+		<Button
+			android:id="@+id/ar_cancel_button"
+			android:layout_width="0.0dip"
+			android:layout_height="wrap_content"
+			android:text="@string/ar_cancel"
+			android:layout_weight="0.5"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

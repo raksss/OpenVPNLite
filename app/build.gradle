@@ -1,15 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 21
-    buildToolsVersion "21.1.0"
+    compileSdkVersion 26
+    buildToolsVersion "8.0.0"
 
     defaultConfig {
         applicationId "net.openvpn.openvpn"
         minSdkVersion 14
-        targetSdkVersion 21
-        versionCode 1
-        versionName "1.0"
+        targetSdkVersion 26
+        versionCode 96
+        versionName "1.1.27"
     }
     buildTypes {
         release {
@@ -20,5 +20,8 @@ android {
 }
 
 dependencies {
+	compile 'com.android.support:support-v4:+'
+	compile 'com.android.support:support-annotations:+'
+	compile 'com.android.support:support-compat:+'
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }

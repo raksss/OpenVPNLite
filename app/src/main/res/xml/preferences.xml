@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/openvpn_settings">
+		<CheckBoxPreference android:title="@string/pause_vpn_on_blanked_screen_title" android:key="pause_vpn_on_blanked_screen" android:summary="@string/pause_vpn_on_blanked_screen_summary" android:defaultValue="false" />
+		<CheckBoxPreference android:title="@string/tun_persist_title" android:key="tun_persist" android:summary="@string/tun_persist_summary" android:defaultValue="false" />
+		<CheckBoxPreference android:title="@string/autostart_title" android:key="autostart" android:summary="@string/autostart_summary" android:defaultValue="false" />
+		<CheckBoxPreference android:title="@string/auto_keyboard_title" android:key="auto_keyboard" android:summary="@string/auto_keyboard_summary" android:defaultValue="false" />
+		<ListPreference android:entries="@array/vpn_proto_array" android:title="@string/vpn_proto_title" android:key="vpn_proto" android:summary="@string/vpn_proto_summary" android:entryValues="@array/vpn_proto_values" />
+		<ListPreference android:entries="@array/ipv6_array" android:title="@string/ipv6_title" android:key="ipv6" android:summary="@string/ipv6_summary" android:entryValues="@array/ipv6_values" />
+		<ListPreference android:entries="@array/conn_timeout_array" android:title="@string/conn_timeout_title" android:key="conn_timeout" android:summary="@string/conn_timeout_summary" android:entryValues="@array/conn_timeout_values" />
+		<ListPreference android:entries="@array/compression_array" android:title="@string/compression_title" android:key="compression_mode" android:summary="@string/compression_summary" android:entryValues="@array/compression_values" />
+		<CheckBoxPreference android:title="@string/force_aes_cbc_ciphersuites_title" android:key="force_aes_cbc_ciphersuites_v2" android:summary="@string/force_aes_cbc_ciphersuites_summary" android:defaultValue="false" />
+		<CheckBoxPreference android:title="@string/cert_profile_insecure_title" android:key="cert_profile_insecure" android:summary="@string/cert_profile_insecure_summary" android:defaultValue="true" />
+		<ListPreference android:entries="@array/tls_version_min_override_array" android:title="@string/tls_version_min_override_title" android:key="tls_version_min_override" android:summary="@string/tls_version_min_override_summary" android:entryValues="@array/tls_version_min_override_values" />
+		<CheckBoxPreference android:title="@string/google_dns_fallback_title" android:key="google_dns_fallback" android:summary="@string/google_dns_fallback_summary" android:defaultValue="false" />
+		<CheckBoxPreference android:title="@string/autostart_finish_on_connect_title" android:key="autostart_finish_on_connect" android:summary="@string/autostart_finish_on_connect_summary" android:defaultValue="false" />
+		<CheckBoxPreference android:title="@string/enable_notifications_title" android:key="enable_notifications" android:summary="@string/enable_notifications_summary" android:defaultValue="false" />
+		<CheckBoxPreference android:title="@string/ui_dark_theme_title" android:key="ui_dark_theme" android:summary="@string/ui_dark_theme_summary" android:defaultValue="false" />
+	</PreferenceCategory>
+</PreferenceScreen>
