@@ -1,6 +1,25 @@
 # OpenVPNLite
 for professionals purposes only
 
+Credits:
+1. openvpn.net
+2. Ronald Torrejos Limpiado - Fagmmmu Creator
+3. Renzo Lanes Barba
+4. and Unknown Developer
+
+Special Thanks to the fallowing tools 
+
+1. apktool
+2. dex2jar
+3. DJ Java Decompiler
+4. eclipse 
+5. Android Studio
+6. APK Studio
+7. Smali2JavaUI
+8. jd-gui 
+9. AndroChef Java Decompiler
+10.My Brain 
+
 Download Here
 https://play.google.com/store/apps/details?id=net.openvpn.openvpn
 
