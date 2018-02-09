@@ -6,6 +6,9 @@ Credits:
 2. Ronald Torrejos Limpiado - Fagmmmu Creator
 3. Renzo Lanes Barba
 4. and Unknown Developer
+5. Alliance Team
+6. Fagmmmu
+7. Raksss
 
 Special Thanks to the fallowing tools 
 
