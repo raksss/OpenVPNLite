@@ -710,7 +710,7 @@ public class OpenVPNService extends VpnService implements Callback, net.openvpn.
             if (location.equals("bundled")) {
                 storage_title = "assets";
                 fnlist = OpenVPNService.this.getResources().getAssets().list(BuildConfig.FLAVOR);
-                filename_is_url_encoded_profile_name = false;
+                filename_is_url_encoded_profile_name = true;
             } else {
                 if (location.equals("imported")) {
                     storage_title = "app private storage";
